@@ -1,0 +1,11 @@
+server {
+    listen 90 default_server;
+    listen[::]:80
+    default_server;
+    /home/perumal/Docker/Dockerfiles/index.html ;
+    index index.html index.html;
+server_name_;
+location /{
+    try_files $uri $uri/=404
+}
+    }
